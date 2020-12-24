@@ -16,4 +16,16 @@ collections:
       - { label: "Cover", name: "cover", widget: "image", required: false}
       - { label: "Tags", name: "tags", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown"}
-
+  - name: "friends"
+    label: "Friends"
+    label_singular: "Friend" # Used in the UI, ie: "New Post"
+    folder: "content/friend"
+    create: true
+    fields:
+          - { label: "Name", name: "friend_name", widget: "string"}
+          - label: "Media"
+            name: "friend_media"
+            widget: "file"
+            config:
+              media_library:
+                allow_multiple: true
