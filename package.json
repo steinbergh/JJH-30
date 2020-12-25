@@ -38,11 +38,12 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
     "markdown-to-jsx": "^6.11.4",
+    "parse-md": "^2.0.4",
     "preact": "^10.4.6",
     "preact-cli-plugin-netlify": "^1.6.0",
+    "preact-particles": "1.18.11",
     "preact-render-to-string": "^5.1.10",
-    "preact-router": "^3.0.1",
-    "parse-md": "^2.0.4"
+    "preact-router": "^3.0.1"
   },
   "jest": {
     "preset": "jest-preset-preact"

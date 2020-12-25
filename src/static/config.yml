@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  local_backend: true
   branch: master
 media_folder: src/assets
 public_folder: /assets
@@ -15,5 +16,4 @@ collections:
             name: "friend_media"
             widget: "file"
             config:
-              media_library:
-                allow_multiple: true
+              allow_multiple: true
