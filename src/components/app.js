@@ -22,16 +22,16 @@ export default class App extends Component {
 	};
 
 	render(props) {
+		console.log(props);
 		return (
 			<Provider value={props}>
 				<div id="app">
-					<Header />
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
-						<Blogs path="/blogs/" />
+						{/* <Blogs path="/blogs/" />
 						<Blog path="/blog/:name" />
 						<Contact path="/contact/" />
-						<ContactSuccess path="/contact/success" />
+						<ContactSuccess path="/contact/success" /> */}
 						<NotFoundPage type="404" default />
 					</Router>
 				</div>
