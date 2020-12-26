@@ -100,7 +100,7 @@
   color: white;
 }
 
-.griditem ul a {
+.griditem ul li a {
   color: white;
   font-weight: 600;
   text-decoration: underline;

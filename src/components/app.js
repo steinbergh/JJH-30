@@ -22,7 +22,6 @@ export default class App extends Component {
 	};
 
 	render(props) {
-		console.log(props);
 		return (
 			<Provider value={props}>
 				<div id="app">

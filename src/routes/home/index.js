@@ -47,7 +47,6 @@ function getVideos(data, isLoading) {
 	}
 	if (data && data.data) {
 		const { data: friends } = data;
-		console.log(friends)
 		return <>{friends.map(({details}, index) => (
 			<div style={`--r: ${Math.round(Math.sin(.3 * index) * 91 + 164)}; --g: ${Math.round(Math.sin(.3 * index + 2) * 91 + 164)}; --b: ${Math.round(Math.sin(.3 * index + 4) * 91 + 164)};`} class={style.griditem}>
 			<h3 class={style.friendName}>{details.friend_name}</h3>
